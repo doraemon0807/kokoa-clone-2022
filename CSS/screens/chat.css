@@ -180,7 +180,7 @@
 
 .reply:focus-within input {
   width: 90vw;
-  transform: translateX(-10%) translateY(-80px);
+  transform: translateX(-11%) translateY(-80px);
 }
 
 .reply:focus-within {
