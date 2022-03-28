@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat w/ Bart's BF - Springfield Talk</title>
+  </head>
+  <body id="chat-screen">
+    <div class="chat-screen--blur">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span>No Service</span>
+          <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+          <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+          <span>11%</span>
+          <i class="fas fa-battery-quarter"></i>
+          <i class="fas fa-bolt"></i>
+        </div>
+      </div>
+
+      <header class="alt-header">
+        <div class="alt-header__column">
+          <a href="chats.html">
+            <i class="fas fa-angle-left fa-2x"></i>
+          </a>
+        </div>
+        <div class="alt-header__column">
+          <h1 class="alt-header__title">Bart's BF</h1>
+        </div>
+        <div class="alt-header__column">
+          <span><i class="fas fa-search fa-lg"></i></span>
+          <span><i class="fas fa-bars fa-lg"></i></span>
+        </div>
+      </header>
+
+      <main class="main-screen main-chat">
+        <div class="chat__timestamp">Sunday, March 27th, 2022</div>
+
+        <div class="message-row message-row--own">
+          <div class="message-row__content">
+            <div class="message__info">
+              <span class="message__bubble">Millhouse!</span>
+              <span class="message__time">17:18</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="message-row message-row--other">
+          <img src="images/milhouse.PNG" />
+          <div class="message-row__content">
+            <span class="message__author">Bart's BF</span>
+            <div class="message__info">
+              <span class="message__bubble">what?</span>
+              <span class="message__time">17:25</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="message-row message-row--own">
+          <div class="message-row__content">
+            <div class="message__info">
+              <span class="message__bubble">Tell Bart to come home.</span>
+              <span class="message__time">17:30</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="message-row message-row--other">
+          <img src="images/milhouse.PNG" />
+          <div class="message-row__content">
+            <span class="message__author">Bart's BF</span>
+            <div class="message__info">
+              <span class="message__bubble">I think he's at Nelson's.</span>
+              <span class="message__time">17:32</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="message-row message-row--own">
+          <div class="message-row__content">
+            <div class="message__info">
+              <span class="message__bubble">who's Nelsons?</span>
+              <span class="message__time">17:35</span>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <form class="reply">
+        <div class="reply__column">
+          <i class="fas fa-plus fa-lg"></i>
+        </div>
+
+        <div class="reply__column">
+          <input type="text" placeholder="Write a message..." />
+          <i class="far fa-file fa-lg"></i>
+          <button>
+            <i class="fas fa-arrow-up fa-lg"></i>
+          </button>
+        </div>
+      </form>
+
+      <div id="no-mobile">
+        <span>D'oh! Your screen is too big!</span>
+        <img src="images/doh.png" />
+      </div>
+      <div id="no-landscape">
+        <span>D'oh! Change your screen to portrait mode!</span>
+        <img src="images/doh.png" />
+      </div>
+
+      <div id="chat_background-color"></div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

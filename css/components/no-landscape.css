@@ -5,10 +5,15 @@
   width: 100vw;
   background-color: var(--yellow);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   top: 0;
   font-size: 32px;
+}
+
+#no-landscape img {
+  margin-top: 50px;
 }
 
 @media screen and (orientation: portrait) {

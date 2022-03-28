@@ -28,6 +28,10 @@
   opacity: 0.6;
 }
 
+.open-chat__header i {
+  margin-left: 5px;
+}
+
 .open-post {
   display: flex;
   justify-content: space-between;
@@ -56,6 +60,7 @@
   height: 25px;
   border-radius: 30%;
   margin-right: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .open-post__member-count {
@@ -71,7 +76,8 @@
 }
 
 .open-post__member-status {
-  color: #ffb0e0;
+  color: rgb(29, 126, 190);
+  font-weight: 400;
 }
 
 .open-post__photo {
@@ -82,6 +88,7 @@
   width: 120px;
   height: 120px;
   border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .open-post__heart-count {
@@ -119,4 +126,13 @@
 .open-post__heart-count:hover i {
   will-change: transform;
   animation: heartbeat 1s linear infinite;
+}
+
+.icon-row__icon {
+  animation: 0.2s ease-in-out;
+}
+
+.icon-row__icon:hover {
+  transform: scale(1.08);
+  cursor: pointer;
 }

@@ -33,3 +33,15 @@
 .alt-header__column span:last-child {
   margin-left: 20px;
 }
+
+.alt-header i:hover {
+  animation: jello-vertical 1.5s linear infinite;
+}
+
+.alt-header .fa-cog:hover {
+  animation: rotateCog 2s linear infinite;
+}
+
+.alt-header i {
+  font-size: 25px;
+}

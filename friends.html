@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends - Kokoa Talk</title>
+    <title>Friends - Springfield Talk</title>
   </head>
   <body>
     <div class="status-bar">
@@ -43,18 +43,19 @@
       <div class="user-component">
         <div class="user-component__column">
           <img
-            src="profile.png"
+            src="images/homer.PNG"
             class="user-component__avatar user-component__avatar--xl"
           />
           <div class="user-component__text">
-            <h4 class="user-component__title">Ddongko</h4>
+            <h4 class="user-component__title">Homer Simpson</h4>
             <!-- <h6 class="user-component__subtitle">Display Whatever</h6> -->
           </div>
         </div>
         <div class="user-component__column"></div>
       </div>
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
+
+      <div class="friends-screen__type">
+        <div class="friends-screen__type-header">
           <span>Channel</span>
           <i class="fas fa-chevron-up fa-xs"></i>
         </div>
@@ -62,7 +63,7 @@
         <div class="user-component">
           <div class="user-component__column">
             <img
-              src="profile.png"
+              src="images/quickie.PNG"
               class="user-component__avatar user-component__avatar--sm"
             />
             <div class="user-component__text">
@@ -78,6 +79,98 @@
             </div>
           </div>
         </div>
+
+      <div class="friends-screen__type">
+        <div class="friends-screen__type-header">
+          <span>Friends  5</span>
+          <i class="fas fa-chevron-up fa-xs"></i>
+        </div>
+
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="images/milhouse.PNG"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Bart's BF
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+          </div>
+        </div>        
+        
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="images/burns.PNG"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Boss
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+
+          </div>
+        </div>
+
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="images/marge.PNG"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                My Love
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+          </div>
+        </div>
+
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="images/selma.PNG"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Smoking Monster
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+          </div>
+        </div>
+
+
+
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="images/flanders.png"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Stupid Flanders
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+          </div>
+        </div>
+
+
+
       </div>
     </main>
 
@@ -90,7 +183,7 @@
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
-            <span class="nav__notification badge">1</span>
+            <span class="nav__notification badge">7</span>
             <i class="far fa-comment fa-lg"></i
           ></a>
         </li>
@@ -108,15 +201,20 @@
       </ul>
     </nav>
 
-    <div id="splash-screen"><i class="fas fa-comment"></i></div>
+    <div id="splash-screen">
+      <img src="images/woohoo2.png"/>
+      <img src="images/woohoo.png"/>
+    </div>
 
     <div id="no-mobile">
-      <span>Your screen is super big ㅠㅠ</span>
+      <span>D'oh! Your screen is too big!</span>
+      <img src="images/doh.png" />
+    </div>
+    <div id="no-landscape">
+      <span>D'oh! Change your screen to portrait mode!</span>
+      <img src="images/doh.png" />
     </div>
 
-    <div id="no-landscape">
-      <span>Change your phone to portrait mode ㅠㅠ</span>
-    </div>
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"

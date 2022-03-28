@@ -11,6 +11,8 @@
   margin-top: 30px;
   border-top: var(--main-border);
   padding-top: 40px;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .more-suggestions__title {
@@ -21,6 +23,7 @@
   width: 70px;
   height: 70px;
   border-radius: 15px;
+  box-shadow: var(--box-shadow);
 }
 
 .more-suggestions__icons {
@@ -28,10 +31,10 @@
 }
 
 .more-suggestions__icon {
-  margin-right: 30px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
+  width: 25%;
 }
 
 .more-suggestions__icon-image {
@@ -39,4 +42,12 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 10px;
+}
+.more-suggestions__icon-text {
+  text-align: center;
+}
+
+.more-suggestions__icon:hover {
+  transform: scale(1.08);
+  cursor: pointer;
 }

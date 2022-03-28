@@ -5,9 +5,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to Kokoa Talk</title>
+    <title>Welcome to Springfield Talk</title>
   </head>
-  <body>
+  <body id="index">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -23,21 +23,47 @@
       </div>
     </div>
     <header class="welcome-header">
-      <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
+      <h1 class="welcome-header__title">Welcome to Springfield Talk</h1>
       <p class="welcome-header__text">
-        If you have a Kokoa Account,<br />
+        If you are a Springfield resident,<br />
         log in with your email or phone number.
       </p>
     </header>
     <form action="friends.html" method="get" id="login-form">
-      <input name="username" type="text" placeholder="Email or phone number" />
-      <input name="password" type="password" placeholder="Password" />
-      <input type="submit" value="Log In" />
-      <a href="#">Find Kokoa Talk Account or Password</a>
+      <input
+        required
+        name="username"
+        type="text"
+        placeholder="Email or phone number"
+      />
+      <input required name="password" type="password" placeholder="Password" />
+      <input type="submit" value="" />
     </form>
 
+    <div class="login">
+      <div class="login__block"></div>
+      <div class="login__block"></div>
+      <a href="friends.html">
+        <button class="login__login">
+          <img class="login--background" src="images/cloud.png" />
+          <span>WOOHOO!!</span>
+        </button>
+      </a>
+      <div class="login__sign-up">
+        <a href="signin.html">This is my first visit to Springfield.</a>
+      </div>
+    </div>
+
+    <div class="welcome-main">
+      <img class="welcome-main__image" src="images/main.png" />
+    </div>
     <div id="no-mobile">
-      <span>Your screen is too big ㅠㅠ</span>
+      <span>D'oh! Your screen is too big!</span>
+      <img src="images/doh.png" />
+    </div>
+    <div id="no-landscape">
+      <span>D'oh! Change your screen to portrait mode!</span>
+      <img src="images/doh.png" />
     </div>
 
     <script

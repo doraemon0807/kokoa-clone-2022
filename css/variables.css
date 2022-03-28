@@ -2,5 +2,7 @@
   --yellow: #fae100;
   --horizontal-space: 25px;
   --main-border: 1px solid rgba(0, 0, 0, 0.2);
-  --grey-color: rgba(0, 0, 0, 0.5);
+  --grey-color: rgb(67, 67, 67);
+  --box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+  --blue: rgb(148, 215, 249);
 }

@@ -24,9 +24,17 @@
 
 .settings__setting-column:last-child {
   opacity: 0.5;
+  font-size: 15px;
 }
 
 .info-icon {
   margin-left: 5px;
   margin-right: 9px;
+}
+
+.settings_setting-icon {
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
